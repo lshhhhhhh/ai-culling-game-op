@@ -27,6 +27,16 @@
 
 **👉 [完整演员表](cast/README.md)**：本作绘制的 20 张设定图和完整生图提示词。
 
+## 名画系列
+
+原版 OP 里有一组致敬名画的镜头。我们把画里的人物换成 AI 娘，整幅画交给 Codex 重画，再用代码按原片的镜头运动重新“拍”出来。
+
+| <img src="gallery/040_kuniyoshi_1.png" width="200"> | <img src="gallery/076_kollwitz.png" width="200"> | <img src="gallery/090_klimt.png" width="200"> |
+|:---:|:---:|:---:|
+| 国芳风武者绘 · GPT | 珂勒惠支风素描 · 千问与 Q 版 DeepSeek | 克林姆特《吻》风 · GPT |
+
+**👉 [名画系列](gallery/README.md)**：六幅整画。
+
 ## 数字
 
 - 原片 2160 帧（24000/1001 fps），合并成 103 个验收单元
@@ -39,6 +49,7 @@
 ```
 docs/            思路总结
 cast/            演员表（cast/README.md）+ 本作绘制的设定图和生图提示词
+gallery/         名画系列：Codex 重画的整幅画
 prompts/         每个单元最终用的提示词：h3/ 是视频模型提示词，cpu/ 是生图加代码合成的说明；index.csv 列出每个单元的做法和脚本
 workflows/       ComfyUI 工作流模板：H3 视频编辑（Ref2VA）＋定时关键帧
 data/            单元划分 unit_plan.json、选角 casting.json
@@ -72,7 +83,7 @@ pipelines/       全部代码（见下方说明）
 
 ## 版权与许可
 
-- 本作是粉丝二创。《咒术回战》原作：芥见下下（集英社《周刊少年 Jump》），动画制作：MAPPA；OP《AIZO》：King Gnu。原作画面与音乐版权归原作方所有，本仓库不包含任何原作素材，也不包含画在原作画面上的关键帧和静帧。
+- 本作是粉丝二创。《咒术回战》原作：芥见下下（集英社《周刊少年 Jump》），动画制作：MAPPA；OP《AIZO》：King Gnu。原作画面与音乐版权归原作方所有，本仓库不包含任何原作素材。[名画系列](gallery/README.md) 是照着原版 OP 画面重画的二创图，构图属于原作，不在本仓库的 CC BY-NC 许可之内，如有权利方要求会删除；其余画在原作画面上的关键帧和静帧都不在仓库里。
 - 企业家的卡通形象均为二创玩梗，与本人及其公司无关。其中马化腾、马云两张参考了 Wikimedia Commons 上的照片（分别为中国新闻网，CC BY 3.0；俄罗斯总统新闻处，CC BY 4.0），照片本身不在仓库里。
 - DeepSeek、Claude、混元、Mistral、Kimi、GLM、MiniMax、Grok、Qwen、豆包等 AI 娘的基础形象来自社区流行的设计（例如 DeepSeek 娘由社区共同完成设计），原图不在仓库里；本仓库的设定图由 Codex（GPT 生图）绘制，生图提示词见 [cast/designs/](cast/designs/)。
 - 代码：MIT（见 [LICENSE](LICENSE)）。人设图、提示词和文档：CC BY-NC 4.0。

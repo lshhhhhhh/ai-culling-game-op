@@ -63,6 +63,55 @@ JENSEN_PROMPT = ('Jensen Huang cast as Tengen, the ancient guardian who keeps th
                  'shading in the same style as Image 1, not photorealistic, not a caricature with exaggerated features.')
 
 
+# the painting series, the user (2026-10-02): “可以把我们生成的名画系列也上传吗”. Codex's own pictures only (no original pixels): the
+# whole paintings of the pan shots cut back from Codex's 2:3 canvas exactly as the renders did, 088 re-lit as in the film. Shots made
+# by H3 (075 Monet, 077-080 Munch) are left out: H3's licence limits where its outputs may be published.
+STILLS = ROOT / 'deliverables/jujutsu/静帧'
+GALLERY = [  # (output, Codex picture, original painting it was cut to (for the 2:3 crop) or None, title, text)
+    ('040_kuniyoshi_1.png', 'pan_040_painting1_gpt_v1.png', 'pan_040_painting1_src.png', '040 · 歌川国芳风武者绘（一）',
+     '乙骨 → GPT。原片是镜头沿着画竖直往上摇的长卷，整幅由 Codex 重画后按原轨迹重新“拍”。'),
+    ('040_kuniyoshi_2.png', 'pan_040_painting2_gpt_v1.png', 'pan_040_painting2_src.png', '040 · 歌川国芳风武者绘（二）',
+     '同一个镜头的后半段，镜头往下摇。'),
+    ('076_kollwitz.png', 'pan_076_sketch_qwen_dsq_v1.png', 'pan_076_sketch_src.png', '076 · 珂勒惠支风铅笔素描',
+     '日下部的妹妹与儿子 → 千问与 Q 版 DeepSeek，只用铅笔灰。'),
+    ('085_yokoo.png', 'still_085_seg1_v1.png', None, '085 · 横尾忠则风夜晚 Y 字路口',
+     '伏黑惠 → Claude 的背影。'),
+    ('088_original.png', 'pan_088_deepseek_v3.png', None, '088 · 原创：双手合十举过头顶',
+     '原片这个镜头太难换，改成原创：DeepSeek 双手合十举过头顶，镜头从下往上摇；按成片的方式逐行重新打光（品红渐变到紫）。'),
+    ('090_klimt.png', 'pan_090_painting_gpt_v2.png', 'pan_090_painting_src.png', '090 · 克林姆特《吻》风',
+     '乙骨 → GPT，全身换成她的制服。'),
+]
+
+
+def gallery():
+    import sys
+    import numpy as np
+    from PIL import Image
+    sys.path.insert(0, str(JJK))
+    import pan_088
+    rows = []
+    for out, name, orig, title, text in GALLERY:
+        im = Image.open(STILLS / name).convert('RGB')
+        if orig:  # the renders resized Codex's 2:3 picture to (w, h + pad) and took the middle h rows
+            w, h = Image.open(STILLS / orig).size
+            pad = max(0, round(w * 1.5) - h)
+            im = im.resize((w, h + pad), Image.LANCZOS).crop((0, pad // 2, w, pad // 2 + h))
+        if out.startswith('088'):
+            tall = np.asarray(im.resize((1024, 1536), Image.LANCZOS)).astype(np.float32)
+            im = Image.fromarray(pan_088.grade(tall, strength=0.7).astype(np.uint8))
+        (OUT / 'gallery').mkdir(parents=True, exist_ok=True)
+        im.save(OUT / 'gallery' / out, optimize=True)
+        rows.append(f'## {title}\n\n{text}\n\n<img src="{out}" width="{480 if im.height > im.width else 720}">\n')
+    write(OUT / 'gallery/README.md', '\n'.join([
+        '# 名画系列', '',
+        '原版 OP 里有一组致敬名画的镜头（浮世绘武者绘、克林姆特、珂勒惠支、横尾忠则……）。我们把画里的人物换成 AI 娘，整幅画交给 Codex（GPT 生图）重画，'
+        '再用代码按原片的镜头运动重新“拍”出来，做法见[思路总结](../docs/思路总结.md)第二节。这里是 Codex 画的整幅画（摇镜头的长画已裁回实际画幅）。', '',
+        '这些画是照着原版 OP 的画面重画的二创图，构图属于原作，不在本仓库的 CC BY-NC 许可之内；如有权利方要求会删除。'
+        '同组里的莫奈花园（075）和蒙克《呐喊》（077-080）两个镜头由视频模型 H3 生成，受其许可限制没有放在这里。', '',
+        *rows]))
+    print('gallery:', len(rows), 'pictures', flush=True)
+
+
 def rel(text):
     """Workspace-absolute paths -> repo-relative, forward slashes."""
     for root in (str(ROOT), str(ROOT).replace('\\', '/'), str(ROOT).replace('\\', '\\\\')):
@@ -149,8 +198,9 @@ def method(part, versions):
 
 
 def main():
-    for item in ('pipelines', 'data', 'prompts', 'workflows', 'cast'):
+    for item in ('pipelines', 'data', 'prompts', 'workflows', 'cast', 'gallery'):
         shutil.rmtree(OUT / item, ignore_errors=True)
+    gallery()
     # code
     for f in sorted(list(JJK.glob('*.py')) + list(JJK.glob('*.ps1'))):
         write(OUT / 'pipelines/jujutsu' / f.name, rel(f.read_text(encoding='utf-8-sig')))
