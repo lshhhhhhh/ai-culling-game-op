@@ -1,0 +1,63 @@
+### H3 入场桥接：第 46–80 帧（末帧锚定 v3 第 80 帧）
+
+subject_definitions:
+<Subject 1> is DeepSeek from <Picture 1>: a slender young woman with grown-up proportions and very long wavy hair, an ahoge, a frilled maid headband, whale-fin ears on both sides of her head, an off-shoulder maid dress that reaches her ankles with an apron, white stockings, and a large whale tail. <Picture 1> already shows her in the red-and-black two-tone of this shot: flat red shapes with black lines and shadows.
+<Subject 2> is the boy with short spiky hair in a dark hooded school jacket who walks into <Video 1>.
+<Picture 2> is the last frame of [Shot 1] at 00:02.292: <Subject 1> walking into the red-and-black street from the left, exactly as the target video must look at that moment.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, the rotating camera, the timing and the red-and-black two-tone look, and [Shot 1] ends on <Picture 2>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, long wavy hair, frilled headband, whale-fin ears and clothing come from <Picture 1>, in the same flat red and black as <Picture 1> and <Video 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, walking, head turns, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Picture 2> ([Shot 1] last frame at 00:02.292): fully_preserved - the final frame matches her position, pose, hair, dress, the street and the composition.
+<Video 1> (source video editing): partially_preserved - replace the character; preserve the red-and-black two-tone rendering, the city street, the black sun with its red ring, the camera that turns around her head, and at the end the black sun forming a red halo behind her head; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style and the red-and-black two-tone rendering of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a red-and-black two-tone city street seen from low, a black sun with a glowing red ring in the sky; at first the street is empty as the camera glides forward, then <Subject 1> walks in from the left edge very close to the camera, and the shot ends on <Picture 2>.
+She is drawn entirely in flat red and black exactly like the street and the boy of <Video 1>: her long wavy hair, frilled headband, whale-fin ears and dress are flat red shapes with black lines and shadows, the same red as the rest of the frame.
+She has the slim grown-up proportions of <Picture 1>, as tall as the boy of <Video 1>. Her long wavy hair flows down her back and the whale-fin ears stand out on both sides of her head, in place of the short spiky hair and the hood of <Video 1>.
+Keep <Subject 1> on the side of the frame where <Video 1> shows the boy; never mirror the shot.
+The reference picture supplies appearance; the source video supplies the complete performance. The reference picture supplies no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A
+
+### H3 v3：第 63–237 帧（本版只用第 77 帧以后）
+
+subject_definitions:
+<Subject 1> is DeepSeek from <Picture 1>: a slender young woman with grown-up proportions and very long wavy hair, an ahoge, a frilled maid headband, whale-fin ears on both sides of her head, an off-shoulder maid dress that reaches her ankles with an apron, white stockings, and a large whale tail. <Picture 1> already shows her in the red-and-black two-tone of this shot: flat red shapes with black lines and shadows.
+<Subject 2> is the boy with short spiky hair in a dark hooded school jacket who walks into <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, the rotating camera, the timing and the red-and-black two-tone look.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, long wavy hair, frilled headband, whale-fin ears and clothing come from <Picture 1>, in the same flat red and black as <Picture 1> and <Video 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, walking, head turns, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the character; preserve the red-and-black two-tone rendering, the city street, the black sun with its red ring, the camera that turns around her head, and at the end the black sun forming a red halo behind her head; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style and the red-and-black two-tone rendering of <Video 1> over this 7.292-second model sequence.
+[Shot 1] 2D-animated, a red-and-black two-tone city street seen from low, a black sun with a glowing red ring in the sky; <Subject 1> walks in from the left very close to the camera; the camera turns around her head as she walks; at the end, seen from behind and below, the black sun behind her head forms a red halo.
+She is drawn entirely in flat red and black exactly like the street and the boy of <Video 1>: her long wavy hair, frilled headband, whale-fin ears and dress are flat red shapes with black lines and shadows, the same red as the rest of the frame.
+She has the slim grown-up proportions of <Picture 1>, as tall as the boy of <Video 1>. Her long wavy hair flows down her back and the whale-fin ears stand out on both sides of her head, in place of the short spiky hair and the hood of <Video 1>.
+Keep <Subject 1> on the side of the frame where <Video 1> shows the boy; never mirror the shot.
+The reference picture supplies appearance; the source video supplies the complete performance. The reference picture supplies no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A
+
+### 合成
+
+第 0–45 帧原片；第 46–51 帧从原片淡入桥接（此时人物还没进画）；第 52–76 帧桥接；第 77–80 帧从桥接淡入 v3 生成段；之后为 v3。原片原音。

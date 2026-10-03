@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is GLM from <Picture 1>: a young woman with very long black hair with dark-blue streaks, black fox ears with white inner fur, a white frilled headband, a black capelet with blue lining over a white blouse, a long black pleated skirt and a large black fox tail with a white tip, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 2> is the figure lit in violet spreading huge hands and wing-like shapes in the first shot (Choso) in <Video 1>.
+<Subject 3> is Claude from <Picture 2>: a young woman with very long flowing orange hair, amber eyes and an orange flower ornament with a black ribbon, in a white blouse with a black bow and a layered white, black and orange dress, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 4> is the man in a suit raising a glowing sword in teal light in the second shot (Higuruma) in <Video 1>.
+<Subject 5> is DeepSeek from <Picture 3>: a slender young woman with very long wavy dark-blue hair, an ahoge, a white frilled maid headband, blue whale-fin ears, an off-shoulder navy maid dress with a white apron, white stockings and a large blue whale tail.
+<Subject 6> is the young man with spiky hair and a red scarf holding a burning fist in orange light in the third shot (Itadori) in <Video 1>.
+<Picture 4> is the keyframe of [Shot 2] at 00:01.083: the exact frame of <Video 1> at that moment with the character replaced - <Subject 3> raising the glowing sword in teal light.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, and <Subject 6> with <Subject 5>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 2]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 2]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Subject 5> (appears in [Shot 3]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 3>.
+<Subject 6> (appears in [Shot 3]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 5>, with their original timing.
+<Picture 4> ([Shot 2] at 00:01.083): fully_preserved - at that moment the frame matches <Picture 4>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the cuts at 00:00.875, 00:01.542, the black background and the single coloured light of each shot: violet, then teal, then orange with fire, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a black background, violet light: <Subject 1> thrusts both huge hands toward the camera, then pulls back and spreads them out to both sides like wings, her body tensing.
+[Shot 2] At 00:00.875, a hard cut, teal light: <Subject 3> stands in the centre of the frame and raises a glowing sword straight up in front of her face with both hands, the blade flaring as she lifts it, her hair stirring.
+[Shot 3] At 00:01.542, a hard cut, orange light: <Subject 5> on the right turns her face to the camera and holds up her fist wrapped in flickering fire on the left.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

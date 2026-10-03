@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is Gemini from <Picture 1>: a slender young woman with a shoulder-length asymmetric purple-to-pink bob, cat ears and amber eyes, no glasses, in a black sailor uniform - a black collar edged with three white stripes, a large bow in Google's blue, red, yellow and green gradient, long sleeves and a long black pleated skirt - holding a revolver.
+<Subject 2> is the dark-haired woman in a black outfit swaying with her arms raised in violet light in the first shot (Mai) in <Video 1>.
+<Subject 3> is DeepSeek from <Picture 2>: a slender young woman with very long wavy dark-blue hair, an ahoge, a white frilled maid headband, blue whale-fin ears, an off-shoulder navy maid dress with a white apron, white stockings and a large blue whale tail.
+<Subject 4> is the young man with short light hair in black thrown through grey smoke in the second shot (Itadori) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 2]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 2]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the cuts at 00:01.250, the dark scene, the thin violet beam of light and city lights of the first shot, the grey smoke of the second shot and the camera movement, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a dark scene lit by a thin violet beam of light, city lights far below: <Subject 1> on the left of the frame sways and leans back with her arms raised, her bob swinging.
+[Shot 2] At 00:01.250, a hard cut: in thick grey smoke, <Subject 3> is thrown backward through the air, arms flung out.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

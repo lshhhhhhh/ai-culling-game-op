@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is Mistral from <Picture 1>: a young woman with long wavy golden-orange hair, cat ears, a wide red hat with a white feather and a red-and-white dress.
+<Subject 2> is the woman with long blonde hair standing at the roof edge (Yuki Tsukumo) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the skyscraper roof edge, the city far below in daylight, the upward camera movement and the white flash at the end, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 3.042-second model sequence.
+[Shot 1] 2D-animated, the edge of a skyscraper roof high above a city in daylight: the camera rises from <Subject 1>'s feet at the edge to her back as she stands looking down over the city, her long hair blowing in the wind, then the frame flashes white.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,25 @@
+subject_definitions:
+<Subject 1> is Claude from <Picture 1>: a young woman with very long flowing orange hair, amber eyes and an orange flower ornament with a black ribbon, wearing a white blouse with a black bow and a layered white, black and orange dress.
+<Subject 2> is the young man with spiky black hair in a dark high-collared school uniform (Megumi) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the character; preserve the cold pale lighting, the dark background and the slight push-in; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a close-up of <Subject 1> facing the camera in the centre of the frame, her face lit pale and cold, looking up with a sharp, determined stare as the camera pushes in slightly.
+Her long orange hair and flower ornament frame her face in place of the spiky black hair of <Video 1>.
+Keep <Subject 1> on the side of the frame where <Video 1> shows the original character; never mirror the shot.
+The reference picture supplies appearance; the source video supplies the complete performance. The reference picture supplies no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

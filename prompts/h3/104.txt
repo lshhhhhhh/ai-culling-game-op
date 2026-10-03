@@ -1,0 +1,19 @@
+subject_definitions:
+<Video 1> is the source video for the target video edit: a low-angle night view up between neon-lit skyscrapers; a thin blue beam of light shoots up into the purple sky, with rings of light around it.
+
+summary:
+[video editing] The target video is an edited version of <Video 1> in which the beam is a column of green Matrix-style digital rain: streams of small falling green glyphs and digits forming the column, with green rings of glyphs around it; everything else preserves <Video 1>, its motion and its timing.
+
+retention_analysis:
+<Video 1> (source video editing): partially_preserved - make that change; preserve the skyscrapers, the camera, the beam's position, path and growth, the rings and the timing; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a low-angle night view up between neon-lit skyscrapers; a column of bright green digital rain - streams of tiny glowing green glyphs and digits, unreadable - shoots up into the sky, rings of green glyphs expanding around it, the green glow spilling onto the building edges.
+The beam is green digital rain at every moment, never a blue beam; the glyphs are too small to read.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,1 @@
+Codex 在第 0 帧的面板上印出 THINKING 与 LOW / MEDIUM / HIGH / EXTRA 刻度（kf_002-004_f00_thinking_v1.png）；对齐（位移 0,0）、调色后合成到每一帧右侧旋钮一带，手经过时保留原片的手。未经 H3。

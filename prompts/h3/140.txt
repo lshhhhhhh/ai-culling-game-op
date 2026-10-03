@@ -1,0 +1,27 @@
+subject_definitions:
+<Subject 1> is the graphics card from <Picture 1>: a long, thick graphics card modelled on the GeForce RTX 3090 Founders Edition - a dark gunmetal shroud, a silver X-shaped metal frame, a large black fan and gold contacts, no text and no logos.
+<Subject 2> is the dark bomb that falls away from the camera toward the city in <Video 1>.
+<Picture 2> is the keyframe of [Shot 1] at 00:00.000: the exact frame of <Video 1> at that moment with the character replaced - <Subject 1> large at the top of the frame, just starting to fall.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Picture 2> ([Shot 1] at 00:00.000): fully_preserved - at that moment the frame matches <Picture 2>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the aerial view of the city, the camera and the timing, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, an aerial view of a city seen from straight above: <Subject 1> falls away from the camera toward the city exactly as the bomb of <Video 1> does.
+<Subject 1> is a graphics card at every moment, never a bomb: no fins, no rounded nose, no cylinder; it carries no text and no logos.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

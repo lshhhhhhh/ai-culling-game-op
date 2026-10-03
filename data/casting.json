@@ -1,0 +1,200 @@
+{
+ "schema": 1,
+ "note": "JJK S3 OP 选角（用户 2026-10-01）。可以重复，让一个 AI 娘扮演两个角色；AI 模型不够用时可以考虑真人（卡通形象，同 Lycoris 的梁文锋、Fate 的杨植麟）。",
+ "decided": {
+  "虎杖悠仁": {
+   "cast": "DeepSeek",
+   "reference": "assets/人设/鲸鱼娘.png"
+  },
+  "伏黑惠": {
+   "cast": "Claude",
+   "reference": "assets/人设/claude娘.png"
+  },
+  "乙骨忧太": {
+   "cast": "GPT（新设计 v6：米白西装外套、黑色水手领与百褶裙配白条、深绿色小领带（ChatGPT 绿）、刀鞘提在身侧；只在发饰上用 OpenAI 花形标志）",
+   "reference": "deliverables/jujutsu/人设/gpt_yuta_v6.png",
+   "note": "v5“这个好看！”，领带改深绿后“非常好，就这个”（2026-10-01）；旧二设 gpt_yuta_v1 弃用"
+  },
+  "禅院真希": {
+   "cast": "Gemini（黑水手服版：高马尾、眼镜、短袖、及膝百褶裙、长刀）",
+   "reference": "deliverables/jujutsu/人设/gemini_maki_v4.png",
+   "note": "用户：“gemini姐妹的人设我也想重画。现在这个身体太壮了不好看”→黑色水手服＋Google 渐变领结（真依长袖长裙）“可以，非常好”（2026-10-01）"
+  },
+  "禅院真依": {
+   "cast": "Gemini（黑水手服版：不对称短发、无眼镜、长袖、长裙、左轮）",
+   "reference": "deliverables/jujutsu/人设/gemini_mai_v3.png",
+   "note": "用户：“gemini姐妹的人设我也想重画。现在这个身体太壮了不好看”→黑色水手服＋Google 渐变领结（真依长袖长裙）“可以，非常好”（2026-10-01）"
+  },
+  "熊猫": {
+   "cast": "混元 HY",
+   "reference": "assets/人设/HY娘.png"
+  },
+  "九十九由基": {
+   "cast": "Mistral",
+   "reference": "assets/人设/mistral娘.jpg",
+   "note": "金色长发"
+  },
+  "星绮罗罗": {
+   "cast": "Spark 讯飞星火",
+   "reference": "assets/人设/spark娘.png",
+   "note": "名字里的“星”"
+  },
+  "秤金次": {
+   "cast": "Kimi",
+   "reference": "assets/人设/KIMI娘.png",
+   "note": "与绮罗罗搭档"
+  },
+  "胀相": {
+   "cast": "GLM",
+   "reference": "assets/人设/GLM娘.png"
+  },
+  "日车宽见": {
+   "cast": "Claude（重复）",
+   "reference": "assets/人设/claude娘.png",
+   "note": "法官 ↔ 宪法 AI"
+  },
+  "高羽史彦": {
+   "cast": "MiniMax",
+   "reference": "assets/人设/minimax娘.jpg",
+   "note": "搞笑艺人"
+  },
+  "雷吉·斯塔": {
+   "cast": "Grok",
+   "reference": "assets/人设/grok.jpg"
+  },
+  "石流龙": {
+   "cast": "Qwen",
+   "reference": "assets/人设/qwen娘.jpg"
+  },
+  "乌鹭亨子": {
+   "cast": "Gemini（用真依的黑水手服造型）",
+   "reference": "deliverables/jujutsu/人设/gemini_mai_v3.png",
+   "note": "用户：“123可以用gemini新形象”"
+  },
+  "天元": {
+   "cast": "黄仁勋（卡通）",
+   "reference": "deliverables/jujutsu/人设/tengen_jensen_v1.png"
+  },
+  "夜蛾正道": {
+   "cast": "马化腾（卡通）",
+   "reference": "deliverables/jujutsu/人设/ma_huateng_v3.png",
+   "note": "管理层用企业家；熊猫由他创造 ↔ 混元。v3（10-02）按 Wikimedia 照片重画成瘦版：v1 套了夜蛾的大块头体型，认不出来"
+  },
+  "羂索": {
+   "cast": "回形针最大化器（反派 AI 少女）",
+   "reference": "deliverables/jujutsu/人设/paperclip_maximizer_v2.png",
+   "note": "大反派用虚构角色：经典失控 AI 思想实验“回形针最大化器”拟人。原“初代失控 AI”（rogue_ai_kenjaku_v1）太像羂索本人，已弃用。060、061（手）、062、145；063 待定"
+  },
+  "乐岩寺嘉伸": {
+   "cast": "马斯克（卡通）",
+   "reference": "deliverables/jujutsu/人设/musk_gakuganji_v1.png",
+   "note": "京都校校长＝学校管理层用企业家；093 金光里弹电吉他；124-125 也是他（用户指认）"
+  },
+  "日下部笃也": {
+   "cast": "梁文锋（卡通）",
+   "reference": "deliverables/jujutsu/人设/liang_kusakabe_v1.png",
+   "note": "东京校老师；095-097（第三批误认成乙骨做了 GPT，需重跑）；133 推轮椅（用户指认）；133 这一镜推轮椅的改为动漫版马云（用户 2026-10-02：“梁文锋推着千问有点奇怪。不如让动漫版马云推着，更加合理”；人设/ma_yun_v1.png，按 Wikimedia Commons 照片 assets/人设/ma_yun_wikimedia_2017.jpg 画，照片 CC BY 4.0、只作本地参考）"
+  },
+  "禅院扇": {
+   "cast": "豆包（官方头像的 3D 画风，差异化设计：黑纹付袴＋火焰刀）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_ogi_v1.png"
+  },
+  "禅院甚壹": {
+   "cast": "豆包（3D 画风，差异化设计：深色和服＋巨石拳）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_jinichi_v1.png"
+  },
+  "禅院兰太": {
+   "cast": "豆包（3D 画风，差异化设计：白道服红腰带＋眼纹头带）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_ranta_v1.png"
+  },
+  "禅院家合影（115）及无名路人": {
+   "cast": "Q版 DeepSeek（一片）",
+   "reference": "assets/人设/鲸鱼娘-小.jpg",
+   "note": "用户：115“可以替换成一片deepseek。”；091-094 时更正“我的本意是无名路人可以这么干”"
+  },
+  "禅院直哉": {
+   "cast": "豆包（直哉造型）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_naoya_v1.png",
+   "note": "102（用户指认）、115 前排、127"
+  },
+  "禅院长寿郎": {
+   "cast": "豆包（长寿郎造型）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_chojuro_v1.png"
+  },
+  "禅院信朗": {
+   "cast": "豆包（信朗造型）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_nobuaki_v1.png"
+  },
+  "禅院直毘人": {
+   "cast": "豆包（直毘人造型）",
+   "reference": "deliverables/jujutsu/人设/doubao_zenin_naobito_v1.png"
+  },
+  "坏相": {
+   "cast": "GLM 的妹妹（坏相造型）",
+   "reference": "deliverables/jujutsu/人设/glm_eso_v1.png",
+   "note": "050、132"
+  },
+  "血涂": {
+   "cast": "GLM 的小妹（血涂造型）",
+   "reference": "deliverables/jujutsu/人设/glm_kechizu_v1.png",
+   "note": "050、132"
+  },
+  "真希真依的母亲": {
+   "cast": "Bard（Gemini 的前身）",
+   "reference": "deliverables/jujutsu/人设/bard_twins_mother_v1.png",
+   "note": "077-080"
+  },
+  "伏黑津美纪": {
+   "cast": "Qwen",
+   "reference": "assets/人设/qwen娘.jpg",
+   "note": "051；用户“随便找一个吧”"
+  },
+  "虎杖香织": {
+   "cast": "DeepSeek（母亲）",
+   "reference": "assets/人设/鲸鱼娘.png",
+   "note": "073；婴儿虎杖＝Q版 DeepSeek"
+  },
+  "日下部的妹妹": {
+   "cast": "千问（Qwen 娘原设）",
+   "reference": "assets/人设/qwen娘.jpg",
+   "note": "076、133；用户 2026-10-02：133“轮椅上的换成千问吧”，076 同一角色一并改为千问（原为 GPT 娘原设）"
+  },
+  "武（日下部的外甥）": {
+   "cast": "Q版 DeepSeek",
+   "reference": "assets/人设/鲸鱼娘-小.jpg",
+   "note": "076"
+  },
+  "丽美": {
+   "cast": "Copilot（原创）",
+   "reference": "assets/fate_zero/op1_v1/character_designs/outputs/copilot_aoi_v1.png",
+   "note": "084-085 画面里看不到"
+  },
+  "129 的两名玩家": {
+   "cast": "Grok＋Mistral",
+   "note": "用户：随便安排一点角色吧不深究了"
+  }
+ },
+ "principles": [
+  "大反派：AI 娘，甚至虚构角色",
+  "主角和主角同辈：AI 娘",
+  "年长的管理层：企业家（卡通形象）",
+  "可以重复，一个 AI 娘演两个角色",
+  "学校管理层用企业家：梁文锋、达里奥、杨植麟、马斯克、奥特曼（用户 2026-10-01 下午）",
+  "禅院家反派全部由豆包饰演，保留官方头像的 3D 画风（“这个形象也是有梗的，画风明显不一样”），各角色差异化设计",
+  "无名路人可以换成 Q 版 DeepSeek；有名字的角色不行"
+ ],
+ "principles_source": "用户 2026-10-01：“大反派用AI娘甚至虚构角色。主角和主角同辈的人用AI娘，年长的管理层用企业家”",
+ "removed": {
+  "五条悟": "用户：五条悟在这个 OP 里面没有登场（2026-10-01）"
+ },
+ "authority": "用户睡前（2026-10-01）：“在人物方面只要符合我们的原则就行了：主角团用AI娘，角色不够用了就让热门角色（deepseek，claude，gpt，gemini）替换。人物形象尽量用社区原设。如果实在不协调（比如原作在用武器打斗），那就用codex生图设计二社。”",
+ "keep_original": [
+  "祈本里香（乙骨的咒灵）",
+  "黑沐死（咒灵）",
+  "宿傩（眼睛/印记）",
+  "禅院姐妹的母亲、日下部的妹妹、伏黑津美纪、伏黑甚尔等闪回人物",
+  "丽美、甘井（街道油画里的小人）",
+  "禅院家「炳」等无名群像"
+ ],
+ "identification_source": "角色识别：JJK Fandom 维基 AIZO 页的登场名单（经搜索摘要）＋用户 2026-10-01 晚的指认"
+}

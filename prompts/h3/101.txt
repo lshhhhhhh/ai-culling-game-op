@@ -1,0 +1,49 @@
+subject_definitions:
+<Subject 1> is Kimi from <Picture 1>: a composed young woman with long wavy silver-white hair and blue eyes, in a white blouse and a dark blue coat, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 2> is the broad figure lit in blue spreading his arms in the first shot (Hakari) in <Video 1>.
+<Subject 3> is Spark from <Picture 2>: a girl with fluffy white curly hair, white animal ears and an oversized white hoodie with a blue infinity logo over a long white skirt, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 4> is the slim figure lit in pink in the second shot (Kirara) in <Video 1>.
+<Subject 5> is Mistral from <Picture 3>: a young woman with long wavy golden-orange hair, cat ears, a wide red hat with a white feather and a red-and-white dress, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 6> is the woman lit in gold standing beneath a long spiked shikigami in the third shot (Yuki Tsukumo) in <Video 1>.
+<Subject 7> is Doubao from <Picture 4>: a young woman with a smooth chocolate-brown chin-length bob, large glossy brown eyes and soft rounded 3D-rendered features, in a black formal crested kimono and grey striped hakama, holding a long katana wreathed in flame, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 8> is the man in a kimono lit in gold who stands far away and then close to the camera in the last shot (Ogi) in <Video 1>.
+<Picture 5> is the keyframe of [Shot 1] at 00:00.125: the exact frame of <Video 1> at that moment with the character replaced - <Subject 1> with her arms spread in blue light.
+<Picture 6> is the keyframe of [Shot 2] at 00:00.625: the exact frame of <Video 1> at that moment with the character replaced - <Subject 3> in pink light.
+<Picture 7> is the keyframe of [Shot 3] at 00:01.167: the exact frame of <Video 1> at that moment with the character replaced - <Subject 5> in gold light beneath the giant golden baguette.
+<Picture 8> is the keyframe of [Shot 5] at 00:02.167: the exact frame of <Video 1> at that moment with the character replaced - <Subject 7> close on the right in dim gold light.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, and <Subject 6> with <Subject 5>, and <Subject 8> with <Subject 7>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 2]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 2]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Subject 5> (appears in [Shot 3]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 3>.
+<Subject 6> (appears in [Shot 3]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 5>, with their original timing.
+<Subject 7> (appears in [Shot 5]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 4>.
+<Subject 8> (appears in [Shot 5]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 7>, with their original timing.
+<Picture 5> ([Shot 1] at 00:00.125): fully_preserved - at that moment the frame matches <Picture 5>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 6> ([Shot 2] at 00:00.625): fully_preserved - at that moment the frame matches <Picture 6>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 7> ([Shot 3] at 00:01.167): fully_preserved - at that moment the frame matches <Picture 7>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 8> ([Shot 5] at 00:02.167): fully_preserved - at that moment the frame matches <Picture 8>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the cuts at 00:00.500, 00:00.875, 00:01.542, 00:01.792, the black background, the single coloured light of each shot, and the small lavender-lit figure of the fourth shot exactly as it is, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a black background, blue light: <Subject 1> lands in the centre of the frame with her arms spread wide, then draws them in and squares her shoulders.
+[Shot 2] At 00:00.500, a hard cut, pink light: <Subject 3> strikes a playful pose in the centre of the frame, one hand raised, her hoodie swaying.
+[Shot 3] At 00:00.875, a hard cut, gold light: <Subject 5> stands in the centre of the frame with one hand on her hip, while a giant golden French baguette with a scored, glowing crust stretches across the whole frame above her, where <Video 1> shows the long spiked shikigami.
+[Shot 4] At 00:01.542, a hard cut: a small figure lit in lavender stands in the centre of the frame, unchanged from <Video 1>.
+[Shot 5] At 00:01.792, a hard cut, dim gold light: <Subject 7> stands far away in the centre of the frame, then appears close on the right, drawing her flaming katana and turning a haughty glare on the camera.
+<Subject 7> keeps the soft 3D-rendered look of her reference - smooth CG shading and big glossy eyes - standing out from the 2D anime around her.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

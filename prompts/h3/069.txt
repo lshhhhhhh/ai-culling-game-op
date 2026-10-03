@@ -1,0 +1,25 @@
+subject_definitions:
+<Subject 1> is DeepSeek from <Picture 1>: a slender young woman with grown-up proportions, very long wavy dark-blue hair, an ahoge, a white frilled maid headband, blue whale-fin ears on both sides of her head, an off-shoulder navy maid dress with a white apron, white stockings and a large blue whale tail.
+<Subject 2> is the boy with short spiky hair and a red hood around his neck (Itadori) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the character; preserve the cyan-and-blue tint, the turbulent white clouds and deep blue sky behind and the trembling camera; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a cyan-tinted medium close-up: <Subject 1> faces the camera in the centre of the frame, shocked and trembling, against turbulent white clouds and a deep blue sky, the whole image washed in cyan.
+Her long wavy dark-blue hair, frilled headband and whale-fin ears take the place of the short spiky hair of <Video 1>, tinted cyan like the rest of the frame.
+Keep <Subject 1> on the side of the frame where <Video 1> shows the original character; never mirror the shot.
+The reference picture supplies appearance; the source video supplies the complete performance. The reference picture supplies no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the keyframe of [Shot 1] at 00:00.000: the exact first frame of <Video 1> with every wooden block rebuilt from bent silver wire - open wireframe cubes, arches, half-circles and cylinders made of looped wire like giant paperclips.
+<Picture 2> is the keyframe of [Shot 1] at 00:01.167: the exact frame of <Video 1> at that moment with every block rebuilt from bent silver wire.
+<Picture 3> is the keyframe of [Shot 1] at 00:02.292: the exact last frame of <Video 1> with every block rebuilt from bent silver wire.
+<Video 1> is the source video for the target video edit: grey monochrome; wooden toy blocks - cubes, arches, half-circles and cylinders - fly in from all sides and stack up into a tower while the camera rises along it, with diagonal motion streaks and flying debris.
+
+summary:
+[video editing + keyframe completion] The target video is an edited version of <Video 1> in which every wooden toy block is the same shape built from thick bent silver wire like giant paperclips, so the tower that stacks up is a tower of paperclip wire; the motion, the camera and the timing preserve <Video 1>.
+
+retention_analysis:
+<Picture 1> ([Shot 1] at 00:00.000): fully_preserved - at that moment the frame matches <Picture 1>: every wire block, its shape, place, size and angle, the grey palette and the streaks.
+<Picture 2> ([Shot 1] at 00:01.167): fully_preserved - at that moment the frame matches <Picture 2>: every wire block, its shape, place, size and angle, the grey palette and the streaks.
+<Picture 3> ([Shot 1] at 00:02.292): fully_preserved - at that moment the frame matches <Picture 3>: every wire block, its shape, place, size and angle, the grey palette and the streaks.
+<Video 1> (source video editing): partially_preserved - replace the material of every block; preserve each block's shape, path, spin and timing, the stacking of the tower, the rising camera, the diagonal motion streaks, the debris and the grey monochrome palette; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D anime look, the grey monochrome palette and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, grey monochrome: blocks bent from thick, shiny silver wire - open wireframe cubes, arches, half-circles and cylinders whose edges are rounded loops of wire like giant paperclips - fly in from all sides along diagonal motion streaks, spin, and lock onto one another, stacking up into a tall see-through tower of paperclip wire while the camera rises along it.
+No block is wooden at any moment and there is no wood grain anywhere; every block keeps the shape, path and timing of its wooden counterpart in <Video 1>.
+The keyframes supply the wire blocks; the source video supplies all motion and the timing.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

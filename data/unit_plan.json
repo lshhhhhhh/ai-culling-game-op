@@ -1,0 +1,982 @@
+{
+ "schema": 1,
+ "created": "2026-10-01T02:53:32.676379-07:00",
+ "total_frames": 2160,
+ "units": [
+  {
+   "id": "001",
+   "start_frame": 0,
+   "end_frame": 238,
+   "members": [
+    "001"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "002-004",
+   "start_frame": 238,
+   "end_frame": 252,
+   "members": [
+    "002",
+    "003",
+    "004"
+   ],
+   "reason": "同一只手托住小球的连续动作，检测在冲击帧处切开。"
+  },
+  {
+   "id": "005",
+   "start_frame": 252,
+   "end_frame": 269,
+   "members": [
+    "005"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "006-016a",
+   "start_frame": 269,
+   "end_frame": 331,
+   "members": [
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016"
+   ],
+   "reason": "俯视城市爆炸，镜头推进到爆炸里，乙骨在火光中下坠、翻身、举刀，一个连续镜头（大量2帧残影切）；第 331 帧切到背后近景。"
+  },
+  {
+   "id": "016b-019",
+   "start_frame": 331,
+   "end_frame": 349,
+   "members": [
+    "016",
+    "017",
+    "018",
+    "019"
+   ],
+   "reason": "斩击：背后近景、刀光与速度线、冲出，快速连续，合并。"
+  },
+  {
+   "id": "020-026a",
+   "start_frame": 349,
+   "end_frame": 393,
+   "members": [
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026"
+   ],
+   "reason": "镜头从楼墙摇到俯瞰城市，虎杖坠落、推到面部、连续出拳，一个镜头（2帧冲击切）；第 393 帧切进道场。"
+  },
+  {
+   "id": "026b-029",
+   "start_frame": 393,
+   "end_frame": 433,
+   "members": [
+    "026",
+    "027",
+    "028",
+    "029"
+   ],
+   "reason": "道场格斗，从第 393 帧开始，一个镜头。"
+  },
+  {
+   "id": "030-031",
+   "start_frame": 433,
+   "end_frame": 438,
+   "members": [
+    "030",
+    "031"
+   ],
+   "reason": "伏黑惠面部特写，轻微推近，一个镜头。"
+  },
+  {
+   "id": "032-034",
+   "start_frame": 438,
+   "end_frame": 472,
+   "members": [
+    "032",
+    "033",
+    "034"
+   ],
+   "reason": "伏黑惠从楼顶迈出坠下街道，蓝色光线铺满，镜头连续。"
+  },
+  {
+   "id": "035",
+   "start_frame": 472,
+   "end_frame": 499,
+   "members": [
+    "035"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "036",
+   "start_frame": 499,
+   "end_frame": 528,
+   "members": [
+    "036"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "037-038",
+   "start_frame": 528,
+   "end_frame": 557,
+   "members": [
+    "037",
+    "038"
+   ],
+   "reason": "熊猫趴在花草地上→抬头，一个镜头。"
+  },
+  {
+   "id": "039",
+   "start_frame": 557,
+   "end_frame": 589,
+   "members": [
+    "039"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "040",
+   "start_frame": 589,
+   "end_frame": 620,
+   "members": [
+    "040"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "041",
+   "start_frame": 620,
+   "end_frame": 645,
+   "members": [
+    "041"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "042",
+   "start_frame": 645,
+   "end_frame": 659,
+   "members": [
+    "042"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "043",
+   "start_frame": 659,
+   "end_frame": 673,
+   "members": [
+    "043"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "044",
+   "start_frame": 673,
+   "end_frame": 687,
+   "members": [
+    "044"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "045",
+   "start_frame": 687,
+   "end_frame": 701,
+   "members": [
+    "045"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "046",
+   "start_frame": 701,
+   "end_frame": 712,
+   "members": [
+    "046"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "047",
+   "start_frame": 712,
+   "end_frame": 722,
+   "members": [
+    "047"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "048",
+   "start_frame": 722,
+   "end_frame": 731,
+   "members": [
+    "048"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "049",
+   "start_frame": 731,
+   "end_frame": 738,
+   "members": [
+    "049"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "050",
+   "start_frame": 738,
+   "end_frame": 741,
+   "members": [
+    "050"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "051",
+   "start_frame": 741,
+   "end_frame": 744,
+   "members": [
+    "051"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "052",
+   "start_frame": 744,
+   "end_frame": 747,
+   "members": [
+    "052"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "053",
+   "start_frame": 747,
+   "end_frame": 751,
+   "members": [
+    "053"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "054",
+   "start_frame": 751,
+   "end_frame": 755,
+   "members": [
+    "054"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "055",
+   "start_frame": 755,
+   "end_frame": 815,
+   "members": [
+    "055"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "056",
+   "start_frame": 815,
+   "end_frame": 827,
+   "members": [
+    "056"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "057",
+   "start_frame": 827,
+   "end_frame": 942,
+   "members": [
+    "057"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "058",
+   "start_frame": 942,
+   "end_frame": 972,
+   "members": [
+    "058"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "059",
+   "start_frame": 972,
+   "end_frame": 996,
+   "members": [
+    "059"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "060",
+   "start_frame": 996,
+   "end_frame": 1006,
+   "members": [
+    "060"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "061",
+   "start_frame": 1006,
+   "end_frame": 1022,
+   "members": [
+    "061"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "062",
+   "start_frame": 1022,
+   "end_frame": 1037,
+   "members": [
+    "062"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "063",
+   "start_frame": 1037,
+   "end_frame": 1071,
+   "members": [
+    "063"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "064",
+   "start_frame": 1071,
+   "end_frame": 1094,
+   "members": [
+    "064"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "065-067",
+   "start_frame": 1094,
+   "end_frame": 1116,
+   "members": [
+    "065",
+    "066",
+    "067"
+   ],
+   "reason": "真希站姿，镜头连续上摇（064 只拍腿，是前一个镜头）。"
+  },
+  {
+   "id": "068",
+   "start_frame": 1116,
+   "end_frame": 1161,
+   "members": [
+    "068"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "069",
+   "start_frame": 1161,
+   "end_frame": 1188,
+   "members": [
+    "069"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "070",
+   "start_frame": 1188,
+   "end_frame": 1217,
+   "members": [
+    "070"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "071",
+   "start_frame": 1217,
+   "end_frame": 1237,
+   "members": [
+    "071"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "072",
+   "start_frame": 1237,
+   "end_frame": 1257,
+   "members": [
+    "072"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "073",
+   "start_frame": 1257,
+   "end_frame": 1264,
+   "members": [
+    "073"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "074",
+   "start_frame": 1264,
+   "end_frame": 1271,
+   "members": [
+    "074"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "075",
+   "start_frame": 1271,
+   "end_frame": 1280,
+   "members": [
+    "075"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "076",
+   "start_frame": 1280,
+   "end_frame": 1297,
+   "members": [
+    "076"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "077-080",
+   "start_frame": 1297,
+   "end_frame": 1316,
+   "members": [
+    "077",
+    "078",
+    "079",
+    "080"
+   ],
+   "reason": "油画尖叫，同一画面的推近与抖动（2帧切）。"
+  },
+  {
+   "id": "081",
+   "start_frame": 1316,
+   "end_frame": 1336,
+   "members": [
+    "081"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "082",
+   "start_frame": 1336,
+   "end_frame": 1346,
+   "members": [
+    "082"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "083",
+   "start_frame": 1346,
+   "end_frame": 1352,
+   "members": [
+    "083"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "084",
+   "start_frame": 1352,
+   "end_frame": 1359,
+   "members": [
+    "084"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "085",
+   "start_frame": 1359,
+   "end_frame": 1367,
+   "members": [
+    "085"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "086",
+   "start_frame": 1367,
+   "end_frame": 1378,
+   "members": [
+    "086"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "087",
+   "start_frame": 1378,
+   "end_frame": 1404,
+   "members": [
+    "087"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "088",
+   "start_frame": 1404,
+   "end_frame": 1437,
+   "members": [
+    "088"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "089",
+   "start_frame": 1437,
+   "end_frame": 1464,
+   "members": [
+    "089"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "090",
+   "start_frame": 1464,
+   "end_frame": 1489,
+   "members": [
+    "090"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "091",
+   "start_frame": 1489,
+   "end_frame": 1497,
+   "members": [
+    "091"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "092",
+   "start_frame": 1497,
+   "end_frame": 1513,
+   "members": [
+    "092"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "093",
+   "start_frame": 1513,
+   "end_frame": 1519,
+   "members": [
+    "093"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "094",
+   "start_frame": 1519,
+   "end_frame": 1541,
+   "members": [
+    "094"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "095-097",
+   "start_frame": 1541,
+   "end_frame": 1548,
+   "members": [
+    "095",
+    "096",
+    "097"
+   ],
+   "reason": "青绿光中披风人物转身（2帧切），一个镜头。"
+  },
+  {
+   "id": "098",
+   "start_frame": 1548,
+   "end_frame": 1565,
+   "members": [
+    "098"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "099",
+   "start_frame": 1565,
+   "end_frame": 1572,
+   "members": [
+    "099"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "100",
+   "start_frame": 1572,
+   "end_frame": 1577,
+   "members": [
+    "100"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "101",
+   "start_frame": 1577,
+   "end_frame": 1596,
+   "members": [
+    "101"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "102",
+   "start_frame": 1596,
+   "end_frame": 1599,
+   "members": [
+    "102"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "103",
+   "start_frame": 1599,
+   "end_frame": 1616,
+   "members": [
+    "103"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "104",
+   "start_frame": 1616,
+   "end_frame": 1623,
+   "members": [
+    "104"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "105",
+   "start_frame": 1623,
+   "end_frame": 1636,
+   "members": [
+    "105"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "106",
+   "start_frame": 1636,
+   "end_frame": 1644,
+   "members": [
+    "106"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "107",
+   "start_frame": 1644,
+   "end_frame": 1648,
+   "members": [
+    "107"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "108",
+   "start_frame": 1648,
+   "end_frame": 1658,
+   "members": [
+    "108"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "109-111a",
+   "start_frame": 1658,
+   "end_frame": 1680,
+   "members": [
+    "109",
+    "110",
+    "111"
+   ],
+   "reason": "星空中的绮罗罗，近景到全身拉远，一个镜头；第 1680 帧切到秤。"
+  },
+  {
+   "id": "111b-114",
+   "start_frame": 1680,
+   "end_frame": 1690,
+   "members": [
+    "111",
+    "112",
+    "113",
+    "114"
+   ],
+   "reason": "秤与蓝色火焰，开头一帧放射状闪光，一个镜头。"
+  },
+  {
+   "id": "115",
+   "start_frame": 1690,
+   "end_frame": 1700,
+   "members": [
+    "115"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "116",
+   "start_frame": 1700,
+   "end_frame": 1715,
+   "members": [
+    "116"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "117",
+   "start_frame": 1715,
+   "end_frame": 1727,
+   "members": [
+    "117"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "118-120",
+   "start_frame": 1727,
+   "end_frame": 1748,
+   "members": [
+    "118",
+    "119",
+    "120"
+   ],
+   "reason": "同一张拼贴画逐步贴上新元素、最后变色，一个镜头。"
+  },
+  {
+   "id": "121-122",
+   "start_frame": 1748,
+   "end_frame": 1765,
+   "members": [
+    "121",
+    "122"
+   ],
+   "reason": "飞机头男人的拼贴，贴纸遮眼，一个镜头。"
+  },
+  {
+   "id": "123",
+   "start_frame": 1765,
+   "end_frame": 1785,
+   "members": [
+    "123"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "124-125",
+   "start_frame": 1785,
+   "end_frame": 1807,
+   "members": [
+    "124",
+    "125"
+   ],
+   "reason": "黑袍人物正面，随后背景出现拼贴色块，一个镜头。"
+  },
+  {
+   "id": "126",
+   "start_frame": 1807,
+   "end_frame": 1834,
+   "members": [
+    "126"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "127",
+   "start_frame": 1834,
+   "end_frame": 1854,
+   "members": [
+    "127"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "128",
+   "start_frame": 1854,
+   "end_frame": 1869,
+   "members": [
+    "128"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "129",
+   "start_frame": 1869,
+   "end_frame": 1886,
+   "members": [
+    "129"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "130",
+   "start_frame": 1886,
+   "end_frame": 1901,
+   "members": [
+    "130"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "131",
+   "start_frame": 1901,
+   "end_frame": 1923,
+   "members": [
+    "131"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "132",
+   "start_frame": 1923,
+   "end_frame": 1947,
+   "members": [
+    "132"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "133",
+   "start_frame": 1947,
+   "end_frame": 1970,
+   "members": [
+    "133"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "134",
+   "start_frame": 1970,
+   "end_frame": 1994,
+   "members": [
+    "134"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "135",
+   "start_frame": 1994,
+   "end_frame": 2014,
+   "members": [
+    "135"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "136-138",
+   "start_frame": 2014,
+   "end_frame": 2034,
+   "members": [
+    "136",
+    "137",
+    "138"
+   ],
+   "reason": "两人勾肩大笑，推近，一个镜头（2帧切）。"
+  },
+  {
+   "id": "139",
+   "start_frame": 2034,
+   "end_frame": 2041,
+   "members": [
+    "139"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "140",
+   "start_frame": 2041,
+   "end_frame": 2058,
+   "members": [
+    "140"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "141",
+   "start_frame": 2058,
+   "end_frame": 2062,
+   "members": [
+    "141"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "142",
+   "start_frame": 2062,
+   "end_frame": 2065,
+   "members": [
+    "142"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "143",
+   "start_frame": 2065,
+   "end_frame": 2094,
+   "members": [
+    "143"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "144",
+   "start_frame": 2094,
+   "end_frame": 2107,
+   "members": [
+    "144"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "145",
+   "start_frame": 2107,
+   "end_frame": 2139,
+   "members": [
+    "145"
+   ],
+   "reason": "单独一个镜头。"
+  },
+  {
+   "id": "146",
+   "start_frame": 2139,
+   "end_frame": 2160,
+   "members": [
+    "146"
+   ],
+   "reason": "单独一个镜头。"
+  }
+ ],
+ "backup": "assets\\jujutsu\\op1_v1\\review\\backups\\before_units_20261001_025301",
+ "note": "用户在对话中要求“你可以先镜头合并吗？比如002-004明显是一个镜头”，2026-10-01。"
+}

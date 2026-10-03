@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is Spark from <Picture 1>: a girl with fluffy white curly hair, white animal ears and an oversized white hoodie with a blue infinity logo over a long white skirt.
+<Subject 2> is the girl with purple-and-blue hair who turns her head in close-up and then stands in the starry space (Kirara) in <Video 1>.
+<Picture 2> is the keyframe of [Shot 1] at 00:00.125: the exact frame of <Video 1> at that moment with the character replaced - the close-up of <Subject 1> turning her head.
+<Picture 3> is the keyframe of [Shot 2] at 00:01.083: the exact frame of <Video 1> at that moment with the character replaced - <Subject 1> standing full length among the stars and rings.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1], [Shot 2]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Picture 2> ([Shot 1] at 00:00.125): fully_preserved - at that moment the frame matches <Picture 2>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 3> ([Shot 2] at 00:01.083): fully_preserved - at that moment the frame matches <Picture 3>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the cuts at 00:00.417, the starry space, the sparkles, the orbital rings that open around her, the stepwise zoom-out and the blue palette, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, starry space: a close-up of <Subject 1> as she turns her head toward the camera with a teasing smile, her hair swinging.
+[Shot 2] At 00:00.417, a cut: <Subject 1> stands full length in the middle of the starry space, arms loose at her sides, swaying slightly, as the camera pulls back in steps and glowing orbital rings open around her.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

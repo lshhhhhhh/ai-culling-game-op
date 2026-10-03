@@ -1,0 +1,28 @@
+subject_definitions:
+<Subject 1> is GLM from <Picture 1>: a young woman with black fox ears and a black fox tail, her black-and-blue hair in two buns, in a dark green cropped top that bares her back, painted with a red blood-splash pattern, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 2> is the taller red-tinted figure flying on the left (Eso) in <Video 1>.
+<Subject 3> is GLM from <Picture 2>: a short, round girl with black fox ears and a fox tail, a messy short bob and a huge mischievous grin, in a pale green hooded jumpsuit, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 4> is the round red-tinted figure flying on the right (Kechizu) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the night city far below, the red-and-black sun, the red-tinted cartoon rendering of the two figures and the slow drift, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a night city far below, a red-and-black sun in the sky: <Subject 1> on the left and <Subject 3> on the right fly across the sky, both drawn in flat red tones, trailing red streaks.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

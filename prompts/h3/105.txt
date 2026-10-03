@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the keyframe of [Shot 1] at 00:00.000: the exact frame of <Video 1> at that moment edited - the giant paperclip slamming into the ground in a cloud of dust.
+<Picture 2> is the keyframe of [Shot 1] at 00:02.292: the exact frame of <Video 1> at that moment edited - the giant paperclip in the ground with the dust rising around it.
+<Video 1> is the source video for the target video edit: an anime frame drawn like an old sepia photograph: a giant stone cube crashes down onto the ground, raising huge clouds of dust and debris, mountains behind.
+
+summary:
+[video editing + keyframe completion] The target video is an edited version of <Video 1> in which the stone cube is a giant silver paperclip slamming down into the ground; everything else preserves <Video 1>, its motion and its timing.
+
+retention_analysis:
+<Picture 1> ([Shot 1] at 00:00.000): fully_preserved - at that moment the frame matches <Picture 1>.
+<Picture 2> ([Shot 1] at 00:02.292): fully_preserved - at that moment the frame matches <Picture 2>.
+<Video 1> (source video editing): partially_preserved - make that change; preserve the sepia old-photo rendering, the dust clouds, the debris, the mountains, the camera and the timing; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, in a sepia old-photo look, a giant silver paperclip slams down into the ground at an angle, its lower end buried as huge clouds of dust and debris billow up around it, mountains behind.
+The falling object is a giant paperclip at every moment, never a stone cube.
+The keyframes supply the new look; the source video supplies all motion and the timing.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

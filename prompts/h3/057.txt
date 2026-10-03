@@ -1,0 +1,71 @@
+### H3 无字底片：第 0–91 帧（关键帧第 0/40/88 帧去字）
+
+subject_definitions:
+<Picture 1> is the keyframe of [Shot 1] at 00:00.000: the exact first frame of <Video 1> with all the text removed - the black-and-white city of tall buildings, with no title.
+<Picture 2> is the keyframe of [Shot 1] at 00:01.792: the exact frame of <Video 1> at that moment with all the text removed - the black-and-white city, with no title and no subtitle.
+<Picture 3> is the keyframe of [Shot 1] at 00:03.958: the exact frame of <Video 1> at that moment with all the text removed - the dark red sky with the black eclipsed sun, with no title and no subtitle.
+<Picture 4> is the keyframe of [Shot 1] at 00:04.750: the exact frame of <Video 1> at that moment with the bomb replaced - a small black graphics card with round fans falling in the upper right of the dark red sky.
+<Picture 5> is the keyframe of [Shot 1] at 00:05.125: the exact frame of <Video 1> at that moment with the bomb replaced - the same graphics card, huge and close to the camera, diving toward the lower left.
+<Video 1> is the source video for the target video edit: a gold title with small kana and a white subtitle over a black-and-white city that dissolves into a dark red sky with a black eclipsed sun; the title fades out and a bomb falls toward the camera.
+
+summary:
+[video editing + keyframe completion] The target video is an edited version of <Video 1> with all the text removed - no title, no kana, no subtitle at any moment - and with the falling bomb turned into a falling graphics card; everything else preserves <Video 1>, its motion and its timing.
+
+retention_analysis:
+<Picture 1> ([Shot 1] at 00:00.000): fully_preserved - at that moment the frame matches <Picture 1>: the city with no text.
+<Picture 2> ([Shot 1] at 00:01.792): fully_preserved - at that moment the frame matches <Picture 2>: the city with no text.
+<Picture 3> ([Shot 1] at 00:03.958): fully_preserved - at that moment the frame matches <Picture 3>: the red sky and the eclipsed sun with no text.
+<Picture 4> ([Shot 1] at 00:04.750): fully_preserved - at that moment the frame matches <Picture 4>: the graphics card's shape, size, angle and position, and the red sky.
+<Picture 5> ([Shot 1] at 00:05.125): fully_preserved - at that moment the frame matches <Picture 5>: the huge graphics card, its fans, its angle and position.
+<Video 1> (source video editing): partially_preserved - remove the text and replace the bomb; preserve the city and its falling debris, the dissolve from the black-and-white city into the red sky, the black eclipsed sun, the black cloud streaks, and the fall of the object toward the camera with its timing; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 5.167-second model sequence.
+[Shot 1] 2D-animated, a black-and-white city of tall buildings with falling debris, with no text over it. The city darkens and dissolves into a dark red sky streaked with black clouds, with a black eclipsed sun ringed in glowing red at the left. Then a small black graphics card appears falling in the upper right and dives toward the camera, growing huge as it tumbles toward the lower left, its round fans and metal bracket visible in the dark red light.
+There is no text, no letters and no logo anywhere in the frame at any moment: where <Video 1> shows the title and the subtitle, the target video shows only the background behind them. The falling object is a graphics card from its first appearance and is never a bomb.
+The keyframes supply the text-free background and the graphics card; the source video supplies all motion, the dissolve and the timing.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A
+
+### H3 显卡桥接 v2：第 82–114 帧（首帧＝底片第 82 帧，末帧＝底片第 114 帧，第 88/93/98/109 帧 Codex 显卡关键帧）
+
+subject_definitions:
+<Picture 1> is the keyframe of [Shot 1] at 00:00.000: the exact first frame of the target video - the city dissolving into the dark red sky with black cloud streaks and the black eclipsed sun, with no text and nothing falling yet.
+<Picture 2> is the keyframe of [Shot 1] at 00:00.417: a black graphics card with round fans, tiny and far away, appearing in the upper right where <Video 1> shows the bomb.
+<Picture 3> is the keyframe of [Shot 1] at 00:00.792: the same graphics card, a little larger.
+<Picture 4> is the keyframe of [Shot 1] at 00:01.167: the same graphics card, larger and closer.
+<Picture 5> is the keyframe of [Shot 1] at 00:01.917: the same graphics card, larger still, diving toward the lower left.
+<Picture 6> is the last frame of [Shot 1] at 00:02.292: the same graphics card, huge and close to the camera.
+<Video 1> is the source video for the target video edit: a gold title over a city dissolving into a dark red sky with a black eclipsed sun; a bomb appears in the upper right and dives toward the camera while the title fades out.
+
+summary:
+[video editing + keyframe completion] The target video is an edited version of <Video 1> without any text, in which the falling bomb is a black graphics card with round fans in every frame where it is visible; [Shot 1] starts on <Picture 1> and ends on <Picture 6>.
+
+retention_analysis:
+<Picture 1> ([Shot 1] first frame at 00:00.000): fully_preserved - the opening frame matches <Picture 1>: the sky, the clouds, the sun.
+<Picture 2> ([Shot 1] at 00:00.417): fully_preserved - at that moment the frame matches <Picture 2>: the graphics card, its size, place and angle, and the sky.
+<Picture 3> ([Shot 1] at 00:00.792): fully_preserved - at that moment the frame matches <Picture 3>: the graphics card, its size, place and angle, and the sky.
+<Picture 4> ([Shot 1] at 00:01.167): fully_preserved - at that moment the frame matches <Picture 4>: the graphics card, its size, place and angle, and the sky.
+<Picture 5> ([Shot 1] at 00:01.917): fully_preserved - at that moment the frame matches <Picture 5>: the graphics card, its size, place and angle, and the sky.
+<Picture 6> ([Shot 1] last frame at 00:02.292): fully_preserved - the final frame matches <Picture 6>: the huge graphics card and the sky.
+<Video 1> (source video editing): partially_preserved - remove the text and replace the bomb; preserve the end of the dissolve, the red sky, the black cloud streaks, the eclipsed sun, the path, speed, tumbling and growth of the falling object, and the timing; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, the last of the city dissolves into a dark red sky streaked with black clouds and a black eclipsed sun ringed in glowing red at the left, with no text. A tiny black graphics card appears in the upper right and falls toward the camera, growing larger and larger as it tumbles toward the lower left, its round fans, metal bracket and gold contacts catching the dark red light, until it fills the right half of the frame.
+There is no text anywhere in the frame. The falling object is the graphics card of the keyframes from its very first appearance - never a bomb: no fins, no rounded nose, no cylinder.
+The keyframes supply the graphics card; the source video supplies the motion and the timing.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A
+
+### 合成
+
+第 0–81 帧为无字底片；第 82–84 帧淡入桥接；之后为桥接。标题「模型回战」与副标题由 CPU 叠加（title_057_v3.py，参数见同目录 title_compositing.json），原片原音。

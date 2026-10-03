@@ -1,0 +1,26 @@
+subject_definitions:
+<Subject 1> is chibi DeepSeek from <Picture 1>: a chibi girl about two and a half heads tall with a big round head, very long wavy dark-blue hair, an ahoge, a white frilled maid headband, small whale-fin ears and a navy maid dress with a white apron, drawn in black, white and grey like <Video 1>.
+<Subject 2> is every masked swordsman in white gi in the black-and-white dojo, including the one close to the camera on the right in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the black-and-white manga rendering, the dojo with paper screens, the low camera angle and the slow movement, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, black and white: in a dojo with paper screens, rows of <Subject 1> stand ready with long katanas, one of them close to the camera on the right raising her blade, as the camera drifts.
+Every soldier is replaced by <Subject 1>: a crowd of identical chibi DeepSeek girls with big heads, long wavy hair and maid headbands, each holding a katana in the same stance and place as the soldier of <Video 1>, with her face uncovered.
+They are drawn in black, white and grey like the rest of the frame.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

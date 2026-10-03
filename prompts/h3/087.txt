@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is MiniMax from <Picture 1>: a cheerful girl with short orange hair, orange eyes and a white cap, in a beige jacket and a plaid skirt.
+<Subject 2> is the man in the blue-and-yellow costume with red gloves (Takaba) in <Video 1>.
+<Subject 3> is DeepSeek from <Picture 2>: a slender young woman with very long wavy dark-blue hair, an ahoge, a white frilled maid headband, blue whale-fin ears, an off-shoulder navy maid dress with a white apron, white stockings and a large blue whale tail.
+<Subject 4> is the boy with pink hair and an orange towel on the right (Itadori) in <Video 1>.
+<Picture 3> is the keyframe of [Shot 1] at 00:00.000: the exact frame of <Video 1> at that moment with the character replaced - <Subject 1> on the left and <Subject 3> on the right, slender and feminine, slim arms and narrow shoulders, no bulging muscles.
+<Picture 4> is the keyframe of [Shot 1] at 00:02.292: the exact frame of <Video 1> at that moment with the character replaced - <Subject 1> on the left and <Subject 3> on the right, slender and feminine, slim arms and narrow shoulders, no bulging muscles.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Picture 3> ([Shot 1] at 00:00.000): fully_preserved - at that moment the frame matches <Picture 3>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 4> ([Shot 1] at 00:02.292): fully_preserved - at that moment the frame matches <Picture 4>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the bright yellow gym, the exercise machines, the poses and the comic energy, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a bright yellow gym: <Subject 1> in the centre-left and <Subject 3> on the right work out side by side with comic energy.
+<Subject 3> is slender and feminine, slim arms and narrow shoulders, no bulging muscles, where the boy of <Video 1> is muscular; she keeps his poses and gestures.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,19 @@
+subject_definitions:
+<Video 1> is the source video for the target video edit: a dim sea under a cloudy sky, shafts of white light falling from the clouds onto the water, glittering on the surface.
+
+summary:
+[video editing] The target video is an edited version of <Video 1> in which the shafts of light are green data streams: columns of falling green glyphs like digital rain, green glints on the water; everything else preserves <Video 1>, its motion and its timing.
+
+retention_analysis:
+<Video 1> (source video editing): partially_preserved - make that change; preserve the sea, the clouds, the camera, the positions and flicker of the shafts and the timing; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a dim sea under a cloudy sky; shafts of green light made of falling streams of tiny green glyphs and digits, like digital rain, pour from the clouds onto the water, green glints flickering on the surface.
+The shafts are green digital rain at every moment, never white light; the glyphs are too small to read.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

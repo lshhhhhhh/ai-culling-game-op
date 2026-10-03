@@ -1,0 +1,43 @@
+subject_definitions:
+<Subject 1> is Doubao from <Picture 1>: a young woman with a smooth chocolate-brown chin-length bob, large glossy brown eyes and soft rounded 3D-rendered features, a broad heavy build, a sleeveless dark olive kimono top with a rope belt, bandaged forearms and a scar on her cheek.
+<Subject 2> is the white-haired muscular shirtless man on the left (Chojuro) in <Video 1>.
+<Subject 3> is Doubao from <Picture 2>: a young woman with a smooth chocolate-brown chin-length bob, large glossy brown eyes and soft rounded 3D-rendered features, grey streaks in her bob, a dark brown kimono with a grey crested haori and a sake gourd at her sash.
+<Subject 4> is the white-haired figure in white fur second from the left in <Video 1>.
+<Subject 5> is Doubao from <Picture 3>: a sturdy young woman with a smooth chocolate-brown chin-length bob, large glossy brown eyes and soft rounded 3D-rendered features, in a heavy dark-brown kimono with tied-back sleeves and huge grey stone fists.
+<Subject 6> is the tanned muscular man flexing in the middle (Jinichi) in <Video 1>.
+<Subject 7> is Doubao from <Picture 4>: a young woman with a smooth chocolate-brown chin-length bob, large glossy brown eyes and soft rounded 3D-rendered features, the ends of her bob dyed blond, small earrings, a smug half-smile, a loose dark grey kimono with a black haori.
+<Subject 8> is the woman in a purple dress with a string of big black beads on the right in <Video 1>.
+<Picture 5> is the keyframe of [Shot 1] at 00:00.833: the exact frame of <Video 1> at that moment with the character replaced - the Doubao girls posing in a row, the one on the right in the dark grey kimono and black haori, one arm raised behind her head.
+<Picture 6> is the keyframe of [Shot 1] at 00:01.458: the exact frame of <Video 1> at that moment with the character replaced - the Doubao girls posing in a row, the one on the right in the dark grey kimono and black haori, one arm raised behind her head.
+<Picture 7> is the keyframe of [Shot 1] at 00:02.292: the exact frame of <Video 1> at that moment with the character replaced - the Doubao girls posing in a row, the one on the right in the dark grey kimono and black haori, one arm raised behind her head.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation + keyframe completion] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, and <Subject 4> with <Subject 3>, and <Subject 6> with <Subject 5>, and <Subject 8> with <Subject 7>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Subject 3> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 2>.
+<Subject 4> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 3>, with their original timing.
+<Subject 5> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 3>.
+<Subject 6> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 5>, with their original timing.
+<Subject 7> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 4>.
+<Subject 8> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 7>, with their original timing.
+<Picture 5> ([Shot 1] at 00:00.833): fully_preserved - at that moment the frame matches <Picture 5>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 6> ([Shot 1] at 00:01.458): fully_preserved - at that moment the frame matches <Picture 6>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Picture 7> ([Shot 1] at 00:02.292): fully_preserved - at that moment the frame matches <Picture 7>: the character's face, hair, outfit, pose and position, the light and the composition.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the blue-and-white sunburst sky, the white flash at the start, the comic posing and the zoom-out, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a white flash with a huge arm swinging away, then a blue-and-white sunburst sky as the camera zooms out on four figures striking comic poses in a row: <Subject 1> on the left, <Subject 3> next to her, <Subject 5> flexing both arms in the middle, and <Subject 7> on the right with one arm raised behind her head.
+Every Doubao keeps her soft 3D-rendered look - smooth CG shading and big glossy eyes - standing out from the 2D anime around her.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A

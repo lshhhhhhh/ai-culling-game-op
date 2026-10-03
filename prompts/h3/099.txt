@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is Gemini from <Picture 1>: a slender young woman with long purple-to-pink gradient hair in a high ponytail, cat ears, amber eyes and thin rectangular glasses, in a black sailor uniform - a black collar edged with three white stripes, a large bow in Google's blue, red, yellow and green gradient, short sleeves and a black pleated skirt - holding a katana, lit entirely in the single coloured light of <Video 1> against black.
+<Subject 2> is the woman crouching with both arms spread in violet light (Maki) in <Video 1>.
+<Video 1> is the source video for the target video edit.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace <Subject 2> with <Subject 1>, preserving the original performance, camera and timing.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, face, hairstyle and clothing come from <Picture 1>.
+<Subject 2> (appears in [Shot 1]): attribute_transfer - all original motion, poses, expressions, screen position and scale are transferred to <Subject 1>, with their original timing.
+<Video 1> (source video editing): partially_preserved - replace the characters; preserve the black background, the violet glow along the arms and the camera pulling back, each character's position in the frame; the frame is never mirrored.
+
+detailed_description:
+The target video keeps the 2D TV-anime style, the colour grading and the lighting of <Video 1> over this 2.333-second model sequence.
+[Shot 1] 2D-animated, a black background: <Subject 1> crouches in a wide stance in the centre of the frame and spreads both arms out wide, violet light glowing along her arms, as the camera pulls back.
+Keep every character on the side of the frame where <Video 1> shows them; never mirror the shots.
+The reference pictures supply appearance; the source video supplies the complete performance. The reference pictures supply no pose, expression, camera distance or composition.
+
+overall_soundscape:
+N/A. Generated audio is disabled; the original clip audio is restored after retiming.
+
+non_diegetic_music:
+N/A
